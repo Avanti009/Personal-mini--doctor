@@ -59,7 +59,7 @@ def get_predicted_value(patient_symptoms):
 # creating routes========================================
 
 
-@app.route("/")
+@app.route("C:\Users\Appex\Desktop\Placement\Personalized-Prescription-Support-\index.html")
 def index():
     return render_template("index.html")
 
