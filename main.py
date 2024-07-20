@@ -96,21 +96,21 @@ def home():
 
 
 # about view funtion and path
-@app.route('/about')
+@app.route('C:\Users\Appex\Desktop\Placement\Personalized-Prescription-Support-\about.html')
 def about():
     return render_template("about.html")
 # contact view funtion and path
-@app.route('/contact')
+@app.route('C:\Users\Appex\Desktop\Placement\Personalized-Prescription-Support-\contact.html')
 def contact():
     return render_template("contact.html")
 
 # developer view funtion and path
-@app.route('/developer')
+@app.route('C:\Users\Appex\Desktop\Placement\Personalized-Prescription-Support-\developer.html')
 def developer():
     return render_template("developer.html")
 
 # about view funtion and path
-@app.route('/blog')
+@app.route('C:\Users\Appex\Desktop\Placement\Personalized-Prescription-Support-\blog.html')
 def blog():
     return render_template("blog.html")
 
